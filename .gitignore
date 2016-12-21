@@ -1,0 +1,8 @@
+#不提交依赖模块
+node_modules
+
+#不提交打包后文件
+dist
+
+#不提交npm debug
+npm-debug.log
