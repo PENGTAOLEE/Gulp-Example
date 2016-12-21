@@ -63,11 +63,6 @@ npm install gulp-livereload gulp-webserver --save-dev
 touch gulpfile.js
 ```
 
-填写相关配置
-```javascript
-
-```
-
 ## 插件介绍及使用方法
 
 ```javascript
@@ -90,6 +85,21 @@ gulp.task('default',['webserver','watch']);
 ```
 
 > gulp 
+
+## 提交Gitbub
+
+不提交依赖包 && 打包文件 && log文件
+```bash
+#不提交依赖模块
+node_modules
+
+#不提交打包后文件
+dist
+
+#不提交npm debug
+npm-debug.log
+```
+
 
 
 
